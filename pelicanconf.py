@@ -23,6 +23,11 @@ PLUGINS = ["mnemonics", "add_css_classes"]
 
 ARTICLE_SAVE_AS = 'docs/{category}/{slug}.html'
 
+
+TEMPLATE_PAGES = {
+    'CNAME': 'CNAME',
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
