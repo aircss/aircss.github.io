@@ -1,0 +1,1 @@
+from .mnemonics import register

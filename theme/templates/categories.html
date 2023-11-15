@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Catégories{% endblock %}
+
+{% block content %}
+  <h1>Categories de documents</h1>
+  <ul class="list pa0">
+  {% for category, articles in categories|sort %}
+    <li><a class="link bleu-france underline-hover" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+  {% endfor %}
+  </ul>
+{% endblock %}

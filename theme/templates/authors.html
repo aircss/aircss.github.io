@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Contributeurs{% endblock %}
+
+{% block content %}
+  <h1>Liste des contributeurs</h1>
+  <ul class="list pa0">
+  {% for author, articles in authors|sort %}
+    <li><a class="link bleu-france underline-hover" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> ({{ articles|count }})</li>
+  {% endfor %}
+  </ul>
+{% endblock %}

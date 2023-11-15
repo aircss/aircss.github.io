@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block title %}{{ SITENAME }} - {{ category }}{% endblock %}
+
+{% block content_title %}
+{% if category == 'Notes' %}
+<h2>Denières notes publiées</h2>
+{% elif category == 'DAT' %}
+<h2>Deniers documents d'architectures techniques publiés</h2>
+{% endif %}
+{% endblock %}
