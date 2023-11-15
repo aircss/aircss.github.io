@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/theme/css/air.min.css"/>
+    <link rel="stylesheet" href="/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="container h-100 noir-90 bg--noir-10 sans-serif overflow-auto">
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 1.1.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Font size</h2>
+
+
+  <p class="llm lh-body fw3 tj">To create and design an easily readable interface, you only need a simple ratio-based
+scale to provide a wide array of visual possibilities and an efficient way to prioritize
+the information on anything you can build from web pages to a full-featured webapp.</p>
+<table class="table-fixed collapse w-100">
+<tbody>
+<tr>
+<td class="ph4 b br b--noir-30 tc f1 v-base">A</td>
+<td class="ph4 b br b--noir-30 tc f2 v-base">A</td>
+<td class="ph4 b br b--noir-30 tc f3 v-base">A</td>
+<td class="ph4 b br b--noir-30 tc f4 v-base">A</td>
+<td class="ph4 b br b--noir-30 tc f5 v-base">A</td>
+<td class="ph4 b br b--noir-30 tc f6 v-base">A</td>
+<td class="ph4 b br b--noir-30 tc f7 v-base">A</td>
+<td class="ph4 b b--noir-30 tc f8 v-base">A</td>
+</tr>
+<tr>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f1</td>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f2</td>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f3</td>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f4</td>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f5</td>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f6</td>
+<td class="pr3 pt2 tc f8 noir-60 bt br b--noir-30">.f7</td>
+<td class="pr3 pt2 tc f8 noir-60 bt b--noir-30">.f8</td>
+</tr>
+</tbody>
+</table><div class="section" id="mnemonics">
+<h2 class="f-subtitle fw3 i">Mnemonics</h2>
+<div class="mnemonics">
+<div class="cf pb4">
+<div class="db w-third fl tc b">Bases</div>
+<div class="db w-third fl tc b">Modifiers</div>
+<div class="db w-third fl tc b">Optional extensions</div>
+</div>
+<div class="flex justify-around items-center code f7">
+<div class="db w-third tc">
+<span class="red">f = font-size</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-title = title dedicated size</span><br/>
+<span class="red">-subtitle = subtitle dedicated size</span><br/>
+<span class="red">1 = 1st step in size scale</span><br/>
+<span class="red">2 = 2nd step in size scale</span><br/>
+<span class="red">3 = 3rd step in size scale</span><br/>
+<span class="red">4 = 4th step in size scale</span><br/>
+<span class="red">5 = 5th step in size scale</span><br/>
+<span class="red">6 = 6th step in size scale</span><br/>
+<span class="red">7 = 7th step in size scale</span><br/>
+<span class="red">8 = 8th step in size scale</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-m = medium width container</span><br/>
+<span class="red">-l = large width container</span><br/>
+<span class="red"></span><br/>
+</div>
+</div>
+</div></div>
+<div class="section" id="source-code">
+<h2 class="f-subtitle fw3 i">Source code</h2>
+<pre class="code css literal-block f8">
+<span class="c">/* csslint font-sizes: false */</span><span class="w">
+</span><span class="c">/* generate: container-rule */</span><span class="w">
+</span><span class="p">.</span><span class="nc">f-title</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mf">2.5</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f-subtitle</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">f1</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mf">1.75</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f2</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mf">1.5</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f3</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mf">1.375</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f4</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mf">1.25</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f5</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mf">1.125</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f6</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f7</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mf">0.875</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">f8</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--font-size-</span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mf">0.75</span><span class="kt">rem</span><span class="p">);</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="c">/* end generate */</span>
+</pre>
+</div>
+
+
+</div>
+  </body>
+</html>

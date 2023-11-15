@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/theme/css/air.min.css"/>
+    <link rel="stylesheet" href="/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="container h-100 noir-90 bg--noir-10 sans-serif overflow-auto">
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 1.1.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Font weight</h2>
+
+
+  <p class="llm lh-body fw3 tj">Varying the font-weight of different pieces of text can help create contrast between
+pieces of information. It can help call attention to a piece of content, or help to make
+a smaller font-size a bit more readable.</p>
+<table class="table-fixed collapse w-100">
+<tbody>
+<tr>
+<td class="ph4 br b--noir-30 tc f1 fw1 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw2 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw3 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw4 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw5 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw6 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw7 v-base">A</td>
+<td class="ph4 br b--noir-30 tc f1 fw8 v-base">A</td>
+<td class="ph4 b--noir-30 tc f1 fw9 v-base">A</td>
+</tr>
+<tr>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw1</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw2</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw3</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw4</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw5</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw6</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw7</td>
+<td class="pr3 pt2 tc f8 noir-50 bt br b--noir-30">.fw8</td>
+<td class="pr3 pt2 tc f8 noir-50 bt b--noir-30">.fw9</td>
+</tr>
+</tbody>
+</table><div class="section" id="mnemonics">
+<h2 class="f-subtitle fw3 i">Mnemonics</h2>
+<div class="mnemonics">
+<div class="cf pb4">
+<div class="db w-third fl tc b">Bases</div>
+<div class="db w-third fl tc b">Modifiers</div>
+<div class="db w-third fl tc b">Optional extensions</div>
+</div>
+<div class="flex justify-around items-center code f7">
+<div class="db w-third tc">
+<span class="red">fw = font-weight</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-normal = normal -- 400</span><br/>
+<span class="red">-bold = bold -- 700</span><br/>
+<span class="red"></span><br/>
+<span class="red">1 = thin -- 100</span><br/>
+<span class="red">2 = extra-light -- 200</span><br/>
+<span class="red">3 = light -- 300</span><br/>
+<span class="red">4 = normal -- 400</span><br/>
+<span class="red">5 = medium -- 500</span><br/>
+<span class="red">6 = semi-bold -- 600</span><br/>
+<span class="red">7 = bold -- 700</span><br/>
+<span class="red">8 = extra-bold -- 800</span><br/>
+<span class="red">9 = black -- 900</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-m = medium width container</span><br/>
+<span class="red">-l = large width container</span><br/>
+<span class="red"></span><br/>
+<span class="red"></span><br/>
+</div>
+</div>
+</div></div>
+<div class="section" id="shorthand">
+<h2 class="f-subtitle fw3 i">Shorthand</h2>
+<p class="llm lh-body fw3 tj">It is possible to use the class name <tt class="docutils literal red">.b</tt> instead of <tt class="docutils literal red"><span class="pre">.fw-bold</span></tt>.</p>
+</div>
+<div class="section" id="source-code">
+<h2 class="f-subtitle fw3 i">Source code</h2>
+<pre class="code css literal-block f8">
+<span class="c">/* generate: container-rule */</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw-normal</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">400</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw-bold</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">700</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">fw1</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw2</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">200</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw3</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">300</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw4</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">400</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw5</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw6</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">600</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw7</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">700</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw8</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">800</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">fw9</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">900</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">b</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="mi">700</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="c">/* end generate */</span>
+</pre>
+</div>
+
+
+</div>
+  </body>
+</html>
