@@ -26,6 +26,8 @@ ARTICLE_SAVE_AS = 'docs/{category}/{slug}.html'
 
 TEMPLATE_PAGES = {
     'CNAME': 'CNAME',
+    'air.css': 'air.css',
+    'air.min.css': 'air.min.css',
 }
 
 # Feed generation is usually not desired when developing
