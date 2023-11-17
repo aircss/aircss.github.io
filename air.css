@@ -967,6 +967,22 @@ html {
 
 */
 
+code, .code {
+  font-family: SFMono-Regular,
+               Menlo,
+               Monaco,
+               Consolas,
+               "Liberation Mono",
+               "Courier New",
+               monospace;
+}
+
+.serif {
+  font-family: georgia,
+               times,
+               serif;
+}
+
 .sans-serif {
   font-family: system-ui,
                -apple-system,
@@ -985,23 +1001,6 @@ html {
                "Segoe UI Emoji",
                "Segoe UI Symbol";
 }
-
-.serif {
-  font-family: georgia,
-               times,
-               serif;
-}
-
-code, .code {
-  font-family: SFMono-Regular,
-               Menlo,
-               Monaco,
-               Consolas,
-               "Liberation Mono",
-               "Courier New",
-               monospace;
-}
-
 /*
 
   VERTICAL ALIGN

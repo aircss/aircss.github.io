@@ -49,10 +49,44 @@ blend in with the user's operating system.</p>
 </div>
 </div>
 </div></div>
+<div class="section" id="examples">
+<h2 class="f-subtitle fw3 i">Examples</h2>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">class</span><span class="o">=</span><span class="s">"code"</span><span class="p">&gt;</span>The quick brown fox ...<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre>
+<p class="code f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj">
+    The quick brown fox jumps over the lazy dog.
+</p><pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">class</span><span class="o">=</span><span class="s">"serif"</span><span class="p">&gt;</span>The quick brown fox ...<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre>
+<p class="serif f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj">
+    The quick brown fox jumps over the lazy dog.
+</p><pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">h1</span> <span class="na">class</span><span class="o">=</span><span class="s">"sans-serif"</span><span class="p">&gt;</span>The quick brown fox ...<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>
+</pre>
+<p class="sans-serif f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj">
+    The quick brown fox jumps over the lazy dog.
+</p></div>
 <div class="section" id="source-code">
 <h2 class="f-subtitle fw3 i">Source code</h2>
 <pre class="code css literal-block f8">
-<span class="p">.</span><span class="nc">sans-serif</span><span class="w"> </span><span class="p">{</span><span class="w">
+<span class="nt">code</span><span class="o">,</span><span class="w"> </span><span class="p">.</span><span class="nc">code</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="n">SFMono-Regular</span><span class="p">,</span><span class="w">
+               </span><span class="n">Menlo</span><span class="p">,</span><span class="w">
+               </span><span class="n">Monaco</span><span class="p">,</span><span class="w">
+               </span><span class="n">Consolas</span><span class="p">,</span><span class="w">
+               </span><span class="s2">"Liberation Mono"</span><span class="p">,</span><span class="w">
+               </span><span class="s2">"Courier New"</span><span class="p">,</span><span class="w">
+               </span><span class="kc">monospace</span><span class="p">;</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">serif</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="n">georgia</span><span class="p">,</span><span class="w">
+               </span><span class="n">times</span><span class="p">,</span><span class="w">
+               </span><span class="kc">serif</span><span class="p">;</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">sans-serif</span><span class="w"> </span><span class="p">{</span><span class="w">
   </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="n">system-ui</span><span class="p">,</span><span class="w">
                </span><span class="o">-</span><span class="n">apple-system</span><span class="p">,</span><span class="w">
                </span><span class="n">Segoe</span><span class="w"> </span><span class="n">UI</span><span class="p">,</span><span class="w">
@@ -69,22 +103,6 @@ blend in with the user's operating system.</p>
                </span><span class="s2">"Apple Color Emoji"</span><span class="p">,</span><span class="w">
                </span><span class="s2">"Segoe UI Emoji"</span><span class="p">,</span><span class="w">
                </span><span class="s2">"Segoe UI Symbol"</span><span class="p">;</span><span class="w">
-</span><span class="p">}</span><span class="w">
-
-</span><span class="p">.</span><span class="nc">serif</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="n">georgia</span><span class="p">,</span><span class="w">
-               </span><span class="n">times</span><span class="p">,</span><span class="w">
-               </span><span class="kc">serif</span><span class="p">;</span><span class="w">
-</span><span class="p">}</span><span class="w">
-
-</span><span class="nt">code</span><span class="o">,</span><span class="w"> </span><span class="p">.</span><span class="nc">code</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="n">SFMono-Regular</span><span class="p">,</span><span class="w">
-               </span><span class="n">Menlo</span><span class="p">,</span><span class="w">
-               </span><span class="n">Monaco</span><span class="p">,</span><span class="w">
-               </span><span class="n">Consolas</span><span class="p">,</span><span class="w">
-               </span><span class="s2">"Liberation Mono"</span><span class="p">,</span><span class="w">
-               </span><span class="s2">"Courier New"</span><span class="p">,</span><span class="w">
-               </span><span class="kc">monospace</span><span class="p">;</span><span class="w">
 </span><span class="p">}</span>
 </pre>
 </div>
