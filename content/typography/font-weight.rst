@@ -47,6 +47,100 @@ Shorthand
 It is possible to use the class name ``.b`` instead of ``.fw-bold``.
 
 
+Examples
+========
+
+.. code:: html
+
+  <p class="fw1">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw1 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw2">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw2 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw3">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw3 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw-normal">The quick brown fox ...</p>
+  <p class="fw4">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw4 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw5">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw5 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw6">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw6 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw-bold">The quick brown fox ...</p>
+  <p class="fw7">The quick brown fox ...</p>
+  <p class="b">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw7 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fw8">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fw8 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
 Source code
 ===========
 

@@ -15,6 +15,40 @@ Mnemonics
 .. mnemonics:: air/src/typography/font-family.css
 
 
+Examples
+========
+
+.. code:: html
+
+    <h1 class="code">The quick brown fox ...<h1>
+
+.. raw:: html
+
+    <p class="code f-title fw7 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+
+.. code:: html
+
+    <h1 class="serif">The quick brown fox ...<h1>
+
+.. raw:: html
+
+    <p class="serif f-title fw7 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+
+.. code:: html
+
+    <h1 class="sans-serif">The quick brown fox ...<h1>
+
+.. raw:: html
+
+    <p class="sans-serif f-title fw7 lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+
+
 Source code
 ===========
 

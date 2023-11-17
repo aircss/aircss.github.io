@@ -19,6 +19,41 @@ Shorthand
 It is possible to use the class name ``.tracked`` instead of ``.tracked-large``.
 
 
+Examples
+========
+
+.. code:: html
+
+  <p class="tracked-tight">The quick brown fox ...</p>
+
+.. raw:: html
+
+    <p class="f3 tracked-tight lh-body mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+
+.. code:: html
+
+  <p class="tracked-large">The quick brown fox ...</p>
+  <p class="tracked">The quick brown fox ...</p>
+
+.. raw:: html
+
+    <p class="f3 tracked-large lh-body mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+
+.. code:: html
+
+  <p class="tracked-oversize">The quick brown fox ...</p>
+
+.. raw:: html
+
+    <p class="f3 tracked-oversize lh-body mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+
+
 Source code
 ===========
 

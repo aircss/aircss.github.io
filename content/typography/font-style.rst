@@ -19,6 +19,32 @@ Shorthand
 It is possible to use the class name ``.i`` instead of ``.fs-italic``.
 
 
+Examples
+========
+
+.. code:: html
+
+  <p class="fs-italic">The quick brown fox ...</p>
+  <p class="i">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <p class="f3 fs-italic lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+
+
+.. code:: html
+
+  <p class="fs-normal">The quick brown fox ...</p>
+
+.. raw:: html
+
+      <div class="f3 fs-normal lh-title mt0 mb6 truncate">
+        The quick brown fox jumps over the lazy dog.
+      </div>
+
+
 Source code
 ===========
 
