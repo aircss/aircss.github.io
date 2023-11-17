@@ -1,5 +1,5 @@
-:title: Tracking
-:date: 2023-11-13
+Tracking
+########
 
 
 Tracking affects the visual density of a word, phrase or paragraph. Decreasing the

@@ -1,5 +1,5 @@
-:title: White space
-:date: 2023-11-13
+White space
+###########
 
 
 Sometime it is necessary to set a different strategy to handle white spaces and new

@@ -1,5 +1,5 @@
-:title: Text align
-:date: 2023-11-13
+Text align
+##########
 
 
 Text alignment is a small but significant part of the interface. Alignment affects how

@@ -1,8 +1,10 @@
-:title: Font style
-:date: 2023-11-13
+Font style
+##########
 
 
-While italics are mainly used to draw attention to certain words or passages, the font style also plays an important role in differentiating the titles and names of things such as novels, movies, or vehicle names from other text.
+While italics are mainly used to draw attention to certain words or passages, the font
+style also plays an important role in differentiating the titles and names of things
+such as novels, movies, or vehicle names from other text.
 
 
 Mnemonics

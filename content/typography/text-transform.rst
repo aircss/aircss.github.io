@@ -1,5 +1,5 @@
-:title: Text transform
-:date: 2023-11-13
+Text transform
+##############
 
 
 Uppercase, title case and sentence can all be used in the same application. But if you

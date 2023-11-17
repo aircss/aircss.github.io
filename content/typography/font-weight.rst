@@ -1,5 +1,5 @@
-:title: Font weight
-:date: 2023-11-13
+Font weight
+###########
 
 
 Varying the font-weight of different pieces of text can help create contrast between

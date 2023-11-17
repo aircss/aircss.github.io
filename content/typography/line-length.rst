@@ -1,6 +1,7 @@
-:title: Line length (measure)
+Line length (measure)
+#####################
+
 :slug: measure
-:date: 2023-11-13
 
 
 Measure or line length is the distance between the left and right edges of a text block.

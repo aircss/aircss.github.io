@@ -1,5 +1,5 @@
-:title: Line height
-:date: 2023-11-13
+Line height
+###########
 
 
 It's always a good practice to add some *leading* to the type setting to open up the

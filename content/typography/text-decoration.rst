@@ -1,5 +1,5 @@
-:title: Text decoration
-:date: 2023-11-13
+Text decoration
+###############
 
 
 Underline and strikethrough decorations on a text are respectively used to add an

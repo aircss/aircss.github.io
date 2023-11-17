@@ -9,6 +9,7 @@ THEME = 'theme'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
+DEFAULT_DATE = 'fs'
 
 ADD_CSS_CLASSES = {}
 ADD_CSS_CLASSES_TO_ARTICLE = {
@@ -19,7 +20,10 @@ ADD_CSS_CLASSES_TO_ARTICLE = {
 }
 
 PLUGIN_PATHS = ["plugins",]
-PLUGINS = ["mnemonics", "add_css_classes"]
+PLUGINS = [
+    "mnemonics",
+    "add_css_classes",
+]
 
 ARTICLE_SAVE_AS = 'docs/{category}/{slug}.html'
 
