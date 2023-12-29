@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://aircss.io/air.min.css"/>
+    <link rel="stylesheet" href="https://aircss.io/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="flex column h-100 noir-90 bg--noir-10 sans-serif">
+
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 2.2.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Display</h2>
+
+
+  <p class="llm lh-body fw3 tj">Formally, the display property sets an element's inner and outer display types. The
+outer type sets an element's participation in flow layout; the inner type sets the
+layout of children. Some values of display are fully defined in their own individual
+specifications; for example the detail of what happens when display: flex is declared is
+defined in the CSS Flexible Box Model specification.</p>
+<div class="section" id="mnemonics">
+<h2 class="f-subtitle fw3 i">Mnemonics</h2>
+<div class="mnemonics">
+<div class="cf pb4">
+<div class="db w-third fl tc b">Bases</div>
+<div class="db w-third fl tc b">Modifiers</div>
+<div class="db w-third fl tc b">Optional extensions</div>
+</div>
+<div class="flex justify-around items-center code f7">
+<div class="db w-third tc">
+<span class="red">d = display</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">n = none</span><br/>
+<span class="red">b = block</span><br/>
+<span class="red">i = inline</span><br/>
+<span class="red">ib = inline-block</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-m = medium width container</span><br/>
+<span class="red">-l = large width container</span><br/>
+<span class="red"></span><br/>
+</div>
+</div>
+</div></div>
+<div class="section" id="note">
+<h2 class="f-subtitle fw3 i">Note</h2>
+<p class="llm lh-body fw3 tj">Is is possible to use the class <tt class="docutils literal red">.flex</tt> instead of <tt class="docutils literal red">.df</tt> for back-compatibility
+purpose and better self-explanatory layouts. Despite being defined in the <em>display</em>
+module of Air, detailed explanation of its usage are available in its dedicated section
+of the documentation.</p>
+<p class="llm lh-body fw3 tj">Read also: aircss/typography/flexbox</p>
+</div>
+<div class="section" id="examples">
+<h2 class="f-subtitle fw3 i">Examples</h2>
+<p class="llm lh-body fw3 tj">If not specified, block will inherently set width to 100% of its parent element. It will
+also cause a line break, even if the declared width doesn't take up the full width of
+the parent.</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"db"</span><span class="p">&gt;</span>
+    display: block;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"db w4"</span><span class="p">&gt;</span>
+    display: block;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</pre>
+<div class="mb6">
+<span class="db w4 ba b--ecume-80 bg--ecume-60 pa2 f7 source">
+        display: block;
+    </span>
+<span class="db ba b--ecume-80 bg--ecume-60 pa2 f7 source">
+        display: block;
+    </span>
+</div><p class="llm lh-body fw3 tj">Set content inline. Inline doesn't respect height or width values. It does not render
+white space between elements.</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"di"</span><span class="p">&gt;</span>
+    display: inline;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"di"</span><span class="p">&gt;</span>
+    display: inline;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</pre>
+<div class="mb6">
+<span class="di ba b--ecume-80 bg--ecume-60 pa2 f7 source">
+      display: inline;
+    </span>
+<span class="di ba b--ecume-80 bg--ecume-60 pa2 f7 source">
+      display: inline;
+    </span>
+</div><p class="llm lh-body fw3 tj">Inline-block will wrap around content inline. It also allows you to set height and width
+properties on the element, which display inline does not allow you to do. It does render
+the white-space in-between elements, so if you set width: 25% to four elements they will
+not just render as a 4 column layout by default. For this latter use case, a flexbox
+based solution should be a better way to achieve it.</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"dib"</span><span class="p">&gt;</span>
+    display: inline-block;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"dib"</span><span class="p">&gt;</span>
+    display: inline-block;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</pre>
+<div class="mb6">
+<span class="dib ba b--ecume-80 bg--ecume-60 pa2">
+      display: inline-block;
+    </span>
+<span class="dib ba b--ecume-80 bg--ecume-60 pa2">
+      display: inline-block;
+    </span>
+</div><p class="llm lh-body fw3 tj">You can set the display of any element to none by tacking on the <tt class="docutils literal red">.dn</tt> class.</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"dn ba b--ecume-80  bg--ecume-60 pa2"</span><span class="p">&gt;</span>
+    display: none;
+<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</pre>
+<div class="mb6">
+<span class="dn ba b--ecume-80 bg--ecume-60 pa2">
+      display: none;
+    </span>
+</div>
+</div>
+<div class="section" id="source-code">
+<h2 class="f-subtitle fw3 i">Source code</h2>
+<pre class="code css literal-block f8">
+<span class="c">/* generate: container-rule */</span><span class="w">
+</span><span class="p">.</span><span class="nc">dn</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">db</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">block</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">di</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">inline</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">dib</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">inline-block</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="c">/* end generate */</span>
+</pre>
+</div>
+
+
+</div>
+  </body>
+</html>

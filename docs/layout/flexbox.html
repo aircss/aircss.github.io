@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://aircss.io/air.min.css"/>
+    <link rel="stylesheet" href="https://aircss.io/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="flex column h-100 noir-90 bg--noir-10 sans-serif">
+
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 2.2.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Flexbox</h2>
+
+
+  <p class="llm lh-body fw3 tj">Flexboxes are first-class citizens in aircss to build advanced layouts. Their
+use is made simple through an expressive set of dedicated classes to configure
+the containers and their child items.</p>
+<div class="section" id="create-a-container">
+<h2 class="f-subtitle fw3 i">Create a container</h2>
+<p class="llm lh-body fw3 tj">Creating a flexbox container only requires to add the <tt class="docutils literal red">flex</tt> class to an
+element. All of its child elements will be laid along the main axis of the
+newly created flexbox on one line or on multiple lines if the <tt class="docutils literal red">wrapped</tt> class
+is added to it.</p>
+<p class="llm lh-body fw3 tj">If no additional class is set, the flexbox will have a horizontal main axis as
+if the additional class <tt class="docutils literal red">row</tt> has been specified. To create a flexbox
+container with a vertical main axis the additional class <tt class="docutils literal red">column</tt> should be
+used.</p>
+<p class="llm lh-body fw3 tj">The default starting point on the main axis is on the left for a horizontal
+flexbox and on the top for a vertical one. It is possible to set the starting
+point respectively to the right and the botton with the use of the <tt class="docutils literal red">reverse</tt>
+additional class.</p>
+<p class="llm lh-body fw3 tj">Finally, it is possible to distribute the child items along the main axis with
+two different strategies: <tt class="docutils literal red"><span class="pre">evenly-spaced</span></tt> or <tt class="docutils literal red"><span class="pre">evenly-filled</span></tt>. If no
+strategy is set, the default behavior is to align items to the starting point.</p>
+</div>
+<div class="section" id="configure-child-items">
+<h2 class="f-subtitle fw3 i">Configure child items</h2>
+<p class="llm lh-body fw3 tj">Flexbox child items can be configured to change how they fill the main axis and
+how they position along the cross axis of their parent container.</p>
+<p class="llm lh-body fw3 tj">Any element can shrink to its minimum allowed size to fit the main axis. The
+use of the <tt class="docutils literal red">grow</tt> class allows an element to expand and fill the main axis.
+Otherwise, it still possible to force an element to neither grow nor shrink by
+adding the <tt class="docutils literal red">noflex</tt> class to it.</p>
+<p class="llm lh-body fw3 tj">On the cross axis, the default behavior of a child item is to stretch across it
+and fill the parent container. If it is not desired, the position of the child
+item along the cross axis must be specified with the help of a class among
+<tt class="docutils literal red">start</tt>, <tt class="docutils literal red">center</tt> or <tt class="docutils literal red">end</tt>.</p>
+</div>
+<div class="section" id="syntax-and-classes">
+<h2 class="f-subtitle fw3 i">Syntax and classes</h2>
+<div class="section" id="containers">
+<h3 class="f1 fw3 i">Containers</h3>
+<p class="llm lh-body fw3 tj"><strong>Syntax:</strong> <tt class="docutils literal red"><span class="pre">[evenly-filled|evenly-spaced]</span> [reverse] [wrapped]
+flex [row|column]</tt></p>
+<p class="llm lh-body fw3 tj"><strong>Default:</strong> A flexbox container hass an horizontal main axis with child items
+aligned to the starting point.</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">flex</tt>: create a flexbox container</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">wrapped</tt>: span child elements on multiple lines if they overflow the
+container main axis length.</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">row</tt>: set the main axis horizontally <em>(implicit)</em></p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">column</tt>: set the main axis vertically</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">reverse</tt>: set the starting point to the right for an horizontal flexbox and
+to the bottom for a vertical flexblox</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red"><span class="pre">evenly-filled</span></tt>: items will have equal space between them</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red"><span class="pre">envenly-spaced</span></tt>: items will have equal space around them</p>
+</div>
+<div class="section" id="child-items">
+<h3 class="f1 fw3 i">Child items</h3>
+<p class="llm lh-body fw3 tj"><strong>Syntax:</strong> <tt class="docutils literal red">[grow|noflex] [start|center|end]</tt></p>
+<p class="llm lh-body fw3 tj"><strong>Default:</strong> An item will shrink to fit the main axis and stretch to fill the
+cross axis.</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">grow</tt>: An item will expand to fill the main axis</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">noflex</tt>: An item will neither grow nor shrink</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">start</tt>: The item is positioned at the start of the cross axis of the
+container</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">center</tt>: The item is centered on the cross-axis of the container</p>
+<p class="llm lh-body fw3 tj"><tt class="docutils literal red">end</tt>: The item is positioned at the end of the cross axis of the container</p>
+</div>
+</div>
+<div class="section" id="examples">
+<h2 class="f-subtitle fw3 i">Examples</h2>
+<p class="llm lh-body fw3 tj"><em>To better illustrate the working of the flexboxes, the following examples use
+a red border for the container and a black border for the child items. Some
+padding is voluntarily added for the sake of clarity.</em></p>
+<p class="llm lh-body fw3 tj">This example show the default behavior of a flexbox container:</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>1 →<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>2 →<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>3 →<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre>
+<div class="flex w-50 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 →</span></div>
+<div class="ba pa4 tc"><span class="f1">2 →</span></div>
+<div class="ba pa4 tc"><span class="f1">3 →</span></div>
+</div><p class="llm lh-body fw3 tj">Example of a reverse row container:</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex reverse row"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>← 1<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>← 2<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>← 3<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre>
+<div class="flex reverse row w-50 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">← 1</span></div>
+<div class="ba pa4 tc"><span class="f1">← 2</span></div>
+<div class="ba pa4 tc"><span class="f1">← 3</span></div>
+</div><p class="llm lh-body fw3 tj">It is worth noting that the <tt class="docutils literal red">row</tt> class is completely optional and is
+specified only to ease the understanding in plain english.</p>
+<p class="llm lh-body fw3 tj">The next example shows how the <tt class="docutils literal red">grow</tt> class impact a child item:</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"flex"</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>1 →<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"grow"</span><span class="p">&gt;</span>2 →<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>3 →<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre>
+<div class="flex w-50 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 →</span></div>
+<div class="grow ba pa4 tc"><span class="f1">2 →</span></div>
+<div class="ba pa4 tc"><span class="f1">3 →</span></div>
+</div><p class="llm lh-body fw3 tj">The following examples show the differences between the two distribution
+strategies along the main axis:</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"evenly-spaced flex row"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre>
+<div class="evenly-spaced flex w-50 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 →</span></div>
+<div class="ba pa4 tc"><span class="f1">2 →</span></div>
+<div class="ba pa4 tc"><span class="f1">3 →</span></div>
+</div><pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"evenly-filled flex row"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre>
+<div class="evenly-filled flex w-50 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 →</span></div>
+<div class="ba pa4 tc"><span class="f1">2 →</span></div>
+<div class="ba pa4 tc"><span class="f1">3 →</span></div>
+</div><p class="llm lh-body fw3 tj">Finally the same goes for the vertical direction with the use of the <tt class="docutils literal red">column</tt>
+class:</p>
+<div class="evenly-filled flex w-50">
+<div class="flex column h5 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 ↓</span></div>
+<div class="ba pa4 tc"><span class="f1">2 ↓</span></div>
+<div class="ba pa4 tc"><span class="f1">3 ↓</span></div>
+</div>
+<div class="flex reverse column h5 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 ↑</span></div>
+<div class="ba pa4 tc"><span class="f1">2 ↑</span></div>
+<div class="ba pa4 tc"><span class="f1">3 ↑</span></div>
+</div>
+<div class="evenly-spaced flex column h5 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 ↓</span></div>
+<div class="ba pa4 tc"><span class="f1">2 ↓</span></div>
+<div class="ba pa4 tc"><span class="f1">3 ↓</span></div>
+</div>
+<div class="evenly-filled flex column h5 pa2 ba b--red">
+<div class="ba pa4 tc"><span class="f1">1 ↓</span></div>
+<div class="ba pa4 tc"><span class="f1">2 ↓</span></div>
+<div class="ba pa4 tc"><span class="f1">3 ↓</span></div>
+</div>
+</div><p class="llm lh-body fw3 tj">Advanced usages are available in the component gallery.</p>
+</div>
+<div class="section" id="source-code">
+<h2 class="f-subtitle fw3 i">Source code</h2>
+<pre class="code css literal-block f8">
+<span class="c">/* generate: container-rule */</span><span class="w">
+</span><span class="p">.</span><span class="nc">flex</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">row</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex-direction</span><span class="p">:</span><span class="w"> </span><span class="kc">row</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">column</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex-direction</span><span class="p">:</span><span class="w"> </span><span class="kc">column</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">reverse</span><span class="p">.</span><span class="nc">row</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex-direction</span><span class="p">:</span><span class="w"> </span><span class="kc">row-reverse</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">reverse</span><span class="p">.</span><span class="nc">column</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex-direction</span><span class="p">:</span><span class="w"> </span><span class="kc">column-reverse</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">evenly-spaced</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">justify-content</span><span class="p">:</span><span class="w"> </span><span class="kc">space</span><span class="o">-</span><span class="n">evenly</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">evenly-filled</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">justify-content</span><span class="p">:</span><span class="w"> </span><span class="kc">space-between</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">wrapped</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex-wrap</span><span class="p">:</span><span class="w"> </span><span class="kc">wrap</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">grow</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">noflex</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+
+</span><span class="p">.</span><span class="nc">center</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">align-self</span><span class="p">:</span><span class="w"> </span><span class="kc">center</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">start</span><span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="k">align-self</span><span class="p">:</span><span class="w"> </span><span class="kc">flex-start</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">end</span><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="k">align-self</span><span class="p">:</span><span class="w"> </span><span class="kc">flex-end</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="c">/* end generate */</span>
+</pre>
+</div>
+
+
+</div>
+  </body>
+</html>

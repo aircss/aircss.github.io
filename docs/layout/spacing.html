@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://aircss.io/air.min.css"/>
+    <link rel="stylesheet" href="https://aircss.io/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="flex column h-100 noir-90 bg--noir-10 sans-serif">
+
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 2.2.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Spacing</h2>
+
+
+  <p class="llm lh-body fw3 tj">Spacing allows to set the outer (margin) and inner (padding) space of an
+element. The difference between margin and padding can have a huge impact on
+the layout despite being invisible to the user.</p>
+<p class="llm lh-body fw3 tj">Aircss spacing scale is based on the powers of two and provides eight steps.</p>
+<div class="section" id="mnemonics">
+<h2 class="f-subtitle fw3 i">Mnemonics</h2>
+<div class="evenly-filled wrapped flex">
+<div class="pa2 w-100 w-25-m tc">
+<div class="db pa2 mb4 b bb noir-60">Bases</div>
+<span class="code red f7">m = margin (outer)</span><br/>
+<span class="code red f7">p = padding (inner)</span><br/>
+<span class="code red f7"></span><br/>
+</div>
+<div class="pa2 w-100 w-50-m tc">
+<div class="db pa2 mb4 b bb noir-60">Modifiers</div>
+<div class="flex">
+<div class="flex column w-50 tl">
+<div class="center">
+<span class="red">a = all</span><br/>
+<br/>
+</div>
+<div class="center">
+<span class="red">v = vertical</span><br/>
+<span class="red">h = horizontal</span><br/>
+<br/>
+</div>
+<div class="center">
+<span class="red">t = top</span><br/>
+<span class="red">r = right</span><br/>
+<span class="red">b = bottom</span><br/>
+<span class="red">l = left</span><br/>
+<br/>
+</div>
+</div>
+<div class="flex column w-50 tl">
+<div class="center">
+<span class="red">0 = none</span><br/>
+<br/>
+</div>
+<div class="center">
+<span class="red">1 = 1st step in scale</span><br/>
+<span class="red">2 = 2nd step in scale</span><br/>
+<span class="red">3 = 3rd step in scale</span><br/>
+<span class="red">4 = 4th step in scale</span><br/>
+<span class="red">5 = 5th step in scale</span><br/>
+<span class="red">6 = 6th step in scale</span><br/>
+<span class="red">7 = 7th step in scale</span><br/>
+<span class="red">8 = 8th step in scale</span><br/>
+</div>
+</div>
+</div>
+</div>
+<div class="pa2 w-100 w-25-m tc">
+<div class="db pa2 mb4 b bb noir-60">Optional modifiers</div>
+<span class="red">-m  = medium</span><br/>
+<span class="red">-l  = large</span><br/>
+</div>
+</div></div>
+<div class="section" id="examples">
+<h2 class="f-subtitle fw3 i">Examples</h2>
+<p class="llm lh-body fw3 tj">It is possible to set the inner and outer spacing by choosing between <tt class="docutils literal red">.p*</tt>
+and <tt class="docutils literal red">.m*</tt> classes. However the following examples will only use outer spacing
+to illustrate the features of this module.</p>
+<p class="llm lh-body fw3 tj">The following example shows the eight steps of the scale in the case of an
+horizontal margin.</p>
+<div class="flex">
+<div class="wrapped flex bg--noir-40">
+<div class="w-100 ml0 pa2 pb3 bg--noir-10 b">left margin</div>
+<div class="w-100 ml0 pa2 bg--noir-10 code red">.ml0</div>
+<div class="w-100 ml1 pa2 bg--noir-10 code red">.ml1</div>
+<div class="w-100 ml2 pa2 bg--noir-10 code red">.ml2</div>
+<div class="w-100 ml3 pa2 bg--noir-10 code red">.ml3</div>
+<div class="w-100 ml4 pa2 bg--noir-10 code red">.ml4</div>
+<div class="w-100 ml5 pa2 bg--noir-10 code red">.ml5</div>
+<div class="w-100 ml6 pa2 bg--noir-10 code red">.ml6</div>
+<div class="dn db-m w-100 ml7 pa2 bg--noir-10 code red">.ml7</div>
+<div class="dn db-m w-100 ml8 pa2 bg--noir-10 code red">.ml8</div>
+</div>
+<div class="wrapped flex bg--noir-40">
+<div class="w-100 ml0 pa2 pb3 bg--noir-10 b tc">horizontal margin (left + right)</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh0</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh1</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh2</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh3</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh4</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh5</div>
+<div class="w-100 pa2 bg--noir-10 tc code red">.mh6</div>
+<div class="dn db-m w-100 pa2 bg--noir-10 tc code red">.mh7</div>
+<div class="dn db-m w-100 pa2 bg--noir-10 tc code red">.mh8</div>
+</div>
+<div class="wrapped flex bg--noir-40">
+<div class="w-100 ml0 pa2 pb3 bg--noir-10 b tr">right margin</div>
+<div class="w-100 mr0 pa2 bg--noir-10 tr code red">.ml0</div>
+<div class="w-100 mr1 pa2 bg--noir-10 tr code red">.ml1</div>
+<div class="w-100 mr2 pa2 bg--noir-10 tr code red">.ml2</div>
+<div class="w-100 mr3 pa2 bg--noir-10 tr code red">.ml3</div>
+<div class="w-100 mr4 pa2 bg--noir-10 tr code red">.ml4</div>
+<div class="w-100 mr5 pa2 bg--noir-10 tr code red">.ml5</div>
+<div class="w-100 mr6 pa2 bg--noir-10 tr code red">.ml6</div>
+<div class="dn db-m w-100 mr7 pa2 bg--noir-10 tr code red">.ml7</div>
+<div class="dn db-m w-100 mr8 pa2 bg--noir-10 tr code red">.ml8</div>
+</div>
+</div>
+<p class="dn-m i f7 llm lh-body fw3 tj">
+n.b.: The example of the 7th and 8th steps of the scale cannot be displayed
+efficiently on a small screen. We are sorry for the inconvenience.
+</p><p class="llm lh-body fw3 tj">The choices of priority in aircss allow to define the space for multiple edges
+at the same time and to override this rule with a more specific rule. As a
+matter of fact, a rule for all four edges can be overriden by a rule for
+vertical or horizontal edge and those latters overriden by an edge specific
+rule (top, right, bottom and left).</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">"mh5 ml8"</span><span class="p">&gt;</span>...<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre>
+<div class="flex bg--noir-40">
+<div class="w-100 mh5 ml8 pa2 bg--noir-10 tc code red">.mh5 .ml8</div>
+</div></div>
+
+
+</div>
+  </body>
+</html>

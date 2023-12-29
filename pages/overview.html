@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://aircss.io/theme/css/air.min.css"/>
+    <link rel="stylesheet" href="https://aircss.io/air.min.css"/>
     <link rel="stylesheet" href="https://aircss.io/theme/css/pygment.css"/>
     <title></title>
   </head>
 
 
-  <body class="container h-100 noir-90 bg--noir-10 sans-serif overflow-auto">
+  <body class="flex column h-100 noir-90 bg--noir-10 sans-serif">
+
     <div class="center w-100 mw8 ph3">
       <a class="link" href="/">
-        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 1.1.0</h1>
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 2.2.0</h1>
       </a>
     </div>
 
@@ -40,7 +41,7 @@
         </p>
 
         <div class="w-100 bl bw2 b--glycine-80">
-            <div class="flex flex-wrap">
+            <div class="wrapped flex">
                 <a class="link db w4 pv4 tc" href="/docs/typography/font-family.html">
                     <img class="h2 w2 ma2" src="/theme/img/font-sans-serif.svg" alt="font family" />
                     <div class="tc f8 lh-body">
@@ -121,6 +122,14 @@
                     </div>
                 </a>
 
+                <a class="link db w4 pv4 tc" href="/docs/layout/vertical-align.html">
+                    <img class="h2 w2 ma2" src="/theme/img/align-vertically.svg" alt="vertical align" />
+                    <div class="tc f8 lh-body">
+                        vertical align *<br>
+                        <span class="red">4 values</span> + <span class="ecume-80">❶</span>
+                    </div>
+                </a>
+
                 <a class="link db w4 pv4 tc" href="/docs/typography/white-space.html">
                     <img class="h2 w2 ma2" src="/theme/img/paragraph.svg" alt="white space" />
                     <div class="tc f8 lh-body">
@@ -132,6 +141,11 @@
 
         </div>
 
+        <p class="llm lh-body fw3 f7 i tj">
+            *: vertical-align is a layout property but is mostly intended for inline blocks of text.
+        </p>
+
+
         <h2 class="f-subtitle fw3 i">Layout</h2>
 
         <p class="llm lh-body fw3 tj">
@@ -142,81 +156,100 @@
         </p>
 
         <div class="w-100 pv4 bl bw2 b--ecume-80">
-            <div class="flex flex-wrap pb4">
-                <a class="link db w4 pv4 tc" href="/docs/layout/display.html">
-                    <img class="h2 w2 ma2" src="/theme/img/layout-line.svg" alt="display" />
+            <div class="wrapped flex pb4">
+                <a class="link db w4 pv4 tc" href="/docs/layout/flexbox.html">
+                    <img class="h2 w2 ma2" src="/theme/img/layout-line.svg" alt="flexbox" />
                     <div class="tc f8 lh-body">
-                        display <br>
-                        <span class="red">4 values</span>
+                        flexbox <br>
+                        <span class="red i">see documentation</span>
                     </div>
                 </a>
 
                 <a class="link db w4 pv4 tc" href="/docs/layout/position.html">
-                    <img class="h2 w2 ma2" src="/theme/img/artboard-2-line.svg" alt="position" />
+                    <img class="h2 w2 ma2" src="/theme/img/layout-top-2-line.svg" alt="position" />
                     <div class="tc f8 lh-body">
                         position <br>
                         <span class="red">4 values</span>
                     </div>
                 </a>
 
-                <a class="link db w4 pv4 tc" href="/docs/layout/flexbox.html">
-                    <img class="h2 w2 ma2" src="/theme/img/magic-line.svg" alt="flexbox" />
+                <a class="link db w4 pv4 tc" href="/docs/layout/coordinates.html">
+                    <img class="h2 w2 ma2" src="/theme/img/ruler-2-line.svg" alt="coordinates" />
                     <div class="tc f8 lh-body">
-                        flexbox <br>
-                        <span class="red i">see documentation</span>
+                        coordinates <br>
+                        <span class="dib red lh-solid">4 values</span>
+                    </div>
+                </a>
+
+                <a class="link db w4 pv4 tc" href="/docs/layout/display.html">
+                    <img class="h2 w2 ma2" src="/theme/img/artboard-2-line.svg" alt="display" />
+                    <div class="tc f8 lh-body">
+                        display <br>
+                        <span class="red">4 values</span>
                     </div>
                 </a>
             </div>
 
-        <div class="flex flex-wrap pb4">
-            <a class="link db w4 pv4 tc" href="/docs/layout/spacing.html">
-            <img class="h2 w2 ma2" src="/theme/img/space.svg" alt="spacing" />
-            <div class="tc f8 lh-body">spacing <br> <span class="dib red lh-solid">see documentation</span></div>
-            </a>
+            <div class="wrapped flex pb4">
 
-            <a class="link db w4 pv4 tc" href="/docs/layout/align-vertically.html">
-            <img class="h2 w2 ma2" src="/theme/img/align-vertically.svg" alt="vertical align" />
-            <div class="tc f8 lh-body">vertical align <br> <span class="red">4 values</span></div>
-            </a>
-
-            <a class="link db w4 pv4 tc" href="/docs/layout/float.html">
-            <img class="h2 w2 ma2" src="/theme/img/arrow-left-right-line.svg" alt="float" />
-            <div class="tc f8 lh-body">float <br> <span class="red">3 values</div>
+                <a class="link db w4 pv4 tc" href="/docs/layout/spacing.html">
+                    <img class="h2 w2 ma2" src="/theme/img/space.svg" alt="spacing" />
+                    <div class="tc f8 lh-body">
+                        spacing <br>
+                        <span class="dib red lh-solid">see documentation</span>
+                    </div>
                 </a>
 
-            <a class="link db w4 pv4 tc" href="/docs/layout/coordinates.html">
-            <img class="h2 w2 ma2" src="/theme/img/ruler-2-line.svg" alt="coordinates" />
-            <div class="tc f8 lh-body">coordinates <br> <span class="dib red lh-solid">4 values,<br />up to 4 choices</span></div>
-            </a>
+                <a class="link db w4 pv4 tc" href="/docs/layout/float.html">
+                    <img class="h2 w2 ma2" src="/theme/img/arrow-left-right-line.svg" alt="float" />
+                    <div class="tc f8 lh-body">
+                        float <br>
+                        <span class="red">3 values
+                    </div>
+                </a>
 
-            <a class="link db w4 pv4 tc" href="/docs/layout/z-index.html">
-            <img class="h2 w2 ma2" src="/theme/img/bring-forward.svg" alt="z-index" />
-            <div class="tc f8 lh-body">z-index <br> <span class="red">12 values</span></div>
-            </a>
-        </div>
+                <a class="link db w4 pv4 tc" href="/docs/layout/z-index.html">
+                    <img class="h2 w2 ma2" src="/theme/img/bring-forward.svg" alt="z-index" />
+                    <div class="tc f8 lh-body">
+                        z-index <br>
+                        <span class="red">8 values</span>
+                    </div>
+                </a>
+            </div>
 
-        <div class="flex flex-wrap pb4">
-            <a class="link db w4 pv4 tc" href="/docs/layout/max-width.html">
-            <img class="h2 w2 ma2" src="/theme/img/contract-left-right-line.svg" alt="max width" />
-            <div class="tc f8 lh-body">max width <br> <span class="red">9 values</span></div>
-            </a>
+            <div class="wrapped flex pb4">
+                <a class="link db w4 pv4 tc" href="/docs/layout/max-width.html">
+                    <img class="h2 w2 ma2" src="/theme/img/contract-left-right-line.svg" alt="max width" />
+                    <div class="tc f8 lh-body">
+                        max width <br>
+                        <span class="red">9 values</span>
+                    </div>
+                </a>
 
-            <a class="link db w4 pv4 tc" href="/docs/layout/width.html">
-            <img class="h2 w2 ma2" src="/theme/img/expand-left-right-fill.svg" alt="width" />
-            <div class="tc f8 lh-body">width <br> <span class="red">23 values</span></div>
-            </a>
+                <a class="link db w4 pv4 tc" href="/docs/layout/width.html">
+                    <img class="h2 w2 ma2" src="/theme/img/expand-left-right-fill.svg" alt="width" />
+                    <div class="tc f8 lh-body">
+                        width <br>
+                        <span class="red">23 values</span>
+                    </div>
+                </a>
 
-            <a class="link db w4 pv4 tc" href="/docs/layout/height.html">
-            <img class="h2 w2 ma2" src="/theme/img/expand-up-down-fill.svg" alt="height" />
-            <div class="tc f8 lh-body">height <br> <span class="red">14 values</span></div>
-            </a>
+                <a class="link db w4 pv4 tc" href="/docs/layout/height.html">
+                    <img class="h2 w2 ma2" src="/theme/img/expand-up-down-fill.svg" alt="height" />
+                    <div class="tc f8 lh-body">
+                        height <br>
+                        <span class="red">14 values</span>
+                    </div>
+                </a>
 
-            <a class="link db w4 pv4 tc" href="/docs/layout/overflow.html">
-            <img class="h2 w2 ma2" src="/theme/img/drag-move-2-fill.svg" alt="overflow" />
-            <div class="tc f8 lh-body">overflow <br> <span class="red">12 values</span></div>
-            </a>
-
-        </div>
+                <a class="link db w4 pv4 tc" href="/docs/layout/overflow.html">
+                    <img class="h2 w2 ma2" src="/theme/img/drag-move-2-fill.svg" alt="overflow" />
+                    <div class="tc f8 lh-body">
+                        overflow <br>
+                        <span class="red">12 values</span>
+                    </div>
+                </a>
+            </div>
 
         </div>
 
@@ -227,7 +260,7 @@
         </p>
 
         <div class="w-100 pv4 bl bw2 b--tuile-80">
-            <div class="flex flex-wrap pb4">
+            <div class="wrapped flex pb4">
                 <a class="link db w4 pv4 tc" href="/docs/layout/overflow.html">
                 <img class="h2 w2 ma2" src="/theme/img/palette-line.svg" alt="colors" />
                 <div class="tc f8 lh-body">colors <br> <span class="dib red lh-solid">38 values</span></div>
@@ -245,7 +278,7 @@
                 <div class="tc f8 lh-body">borders <br> <span class="red i">see documentation</span></div>
                 </a>
                 <a class="link db w4 pv4 tc" href="/docs/layout/overflow.html">
-                <img class="h2 w2 ma2" src="/theme/img/shadow.svg" alt="shadows" />
+                <img class="h2 w2 ma2" src="/theme/img/shadow-line.svg" alt="shadows" />
                 <div class="tc f8 lh-body">shadows <br> <span class="red">2 values</span></div>
                 </a>
             </div>

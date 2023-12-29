@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://aircss.io/air.min.css"/>
+    <link rel="stylesheet" href="https://aircss.io/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="flex column h-100 noir-90 bg--noir-10 sans-serif">
+
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 2.2.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Z-index</h2>
+
+
+  <p class="llm lh-body fw3 tj">The z-index property specifies the stack order of an element.</p>
+<p class="llm lh-body fw3 tj">An element with greater stack order is always in front of an element with a
+lower stack order. z-index only works on positioned elements (<tt class="docutils literal red">absolute</tt>,
+<tt class="docutils literal red">relative</tt>, <tt class="docutils literal red">fixed</tt> or <tt class="docutils literal red">sticky</tt>) and flex items (elements that are direct
+children of <tt class="docutils literal red">flex</tt> elements).</p>
+<div class="section" id="mnemonics">
+<h2 class="f-subtitle fw3 i">Mnemonics</h2>
+<div class="mnemonics">
+<div class="cf pb4">
+<div class="db w-third fl tc b">Bases</div>
+<div class="db w-third fl tc b">Modifiers</div>
+<div class="db w-third fl tc b">Optional extensions</div>
+</div>
+<div class="flex justify-around items-center code f7">
+<div class="db w-third tc">
+<span class="red">z = z-index</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">0 = literal value 0</span><br/>
+<span class="red">1 = literal value 1</span><br/>
+<span class="red">2 = literal value 2</span><br/>
+<span class="red">3 = literal value 3</span><br/>
+<span class="red">4 = literal value 4</span><br/>
+<span class="red">5 = literal value 5</span><br/>
+<span class="red">999 = literal value 999</span><br/>
+<span class="red">9999 = literal value 9999</span><br/>
+<span class="red"></span><br/>
+<span class="red">-max = largest accepted z-index value as integer</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="i noir-50">none</span>
+</div>
+</div>
+</div></div>
+<div class="section" id="source-code">
+<h2 class="f-subtitle fw3 i">Source code</h2>
+<pre class="code css literal-block f8">
+<span class="p">.</span><span class="nc">z0</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z1</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z2</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z3</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z4</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z999</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">999</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z9999</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">9999</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">z-max</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">z-index</span><span class="p">:</span><span class="w"> </span><span class="mi">2147483647</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+</pre>
+</div>
+
+
+</div>
+  </body>
+</html>

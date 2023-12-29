@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://aircss.io/air.min.css"/>
+    <link rel="stylesheet" href="https://aircss.io/theme/css/pygment.css"/>
+    <title>Air CSS</title>
+  </head>
+
+
+  <body class="flex column h-100 noir-90 bg--noir-10 sans-serif">
+
+    <div class="center w-100 mw8 ph3">
+      <a class="link" href="/">
+        <h1 class="f-title fw4 i">Air CSS <span class="f6 noir-50">ver. 2.2.0</h1>
+      </a>
+    </div>
+
+<div class="center w-100 mw8 ph3">
+
+  <h2 class="f-subtitle fw3 i">Vertical align</h2>
+
+
+  <p class="llm lh-body fw3 tj">This module allows to set vertical alignment of an inline or inline-block box.</p>
+<div class="section" id="mnemonics">
+<h2 class="f-subtitle fw3 i">Mnemonics</h2>
+<div class="mnemonics">
+<div class="cf pb4">
+<div class="db w-third fl tc b">Bases</div>
+<div class="db w-third fl tc b">Modifiers</div>
+<div class="db w-third fl tc b">Optional extensions</div>
+</div>
+<div class="flex justify-around items-center code f7">
+<div class="db w-third tc">
+<span class="red">v = vertical</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-base</span><br/>
+<span class="red"></span><br/>
+<span class="red">-top = align top edges</span><br/>
+<span class="red">-mid = center within the row</span><br/>
+<span class="red">-btm = align bottom egdes</span><br/>
+<span class="red"></span><br/>
+</div>
+<div class="db w-third tc">
+<span class="red">-m  = medium</span><br/>
+<span class="red">-l  = large</span><br/>
+<span class="red"></span><br/>
+</div>
+</div>
+</div></div>
+<div class="section" id="examples">
+<h2 class="f-subtitle fw3 i">Examples</h2>
+<p class="llm lh-body fw3 tj">The following examples add visible top and botton borders on each element to
+better show the different options available.</p>
+<pre class="code html literal-block f8">
+<span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>Reference<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"v-base"</span><span class="p">&gt;</span>.v-base<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"v-top"</span><span class="p">&gt;</span>.v-top<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"v-mid"</span><span class="p">&gt;</span>.v-mid<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">"v-btm"</span><span class="p">&gt;</span>.v-btm<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</pre>
+<div class="w-100 bb bt b--red mt5 mb4">
+<h1 class="dib mv5">Reference</h1>
+<h1 class="dib bb bt mv0 mh3 v-base">.v-base</h1>
+<h1 class="dib bb mv0 mh3 v-top">.v-top</h1>
+<h1 class="dib bb bt mv0 mh3 v-mid">.v-mid</h1>
+<h1 class="dib bt mv0 mh3 v-btm">.v-btm</h1>
+</div></div>
+<div class="section" id="source-code">
+<h2 class="f-subtitle fw3 i">Source code</h2>
+<pre class="code css literal-block f8">
+<span class="c">/* generate: container-rule */</span><span class="w">
+</span><span class="p">.</span><span class="nc">v-base</span><span class="w">     </span><span class="p">{</span><span class="w"> </span><span class="k">vertical-align</span><span class="p">:</span><span class="w"> </span><span class="kc">baseline</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">v-top</span><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="k">vertical-align</span><span class="p">:</span><span class="w"> </span><span class="kc">top</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">v-mid</span><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="k">vertical-align</span><span class="p">:</span><span class="w"> </span><span class="kc">middle</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">
+</span><span class="p">.</span><span class="nc">v-btm</span><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="k">vertical-align</span><span class="p">:</span><span class="w"> </span><span class="kc">bottom</span><span class="p">;}</span><span class="w">
+</span><span class="c">/* end generate */</span>
+</pre>
+</div>
+
+
+</div>
+  </body>
+</html>
