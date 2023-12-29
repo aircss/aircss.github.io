@@ -1,5 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Air CSS - typography</title><link href="https://aircss.io/" rel="alternate"></link><link href="https://aircss.io/feeds/typography.atom.xml" rel="self"></link><id>https://aircss.io/</id><updated>2023-11-17T22:52:13+01:00</updated><entry><title>White space</title><link href="https://aircss.io/white-space.html" rel="alternate"></link><published>2023-11-17T22:52:13+01:00</published><updated>2023-11-17T22:52:13+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/white-space.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Sometime it is necessary to set a different strategy to handle white spaces and new
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Air CSS - typography</title><link href="https://aircss.io/" rel="alternate"></link><link href="https://aircss.io/feeds/typography.atom.xml" rel="self"></link><id>https://aircss.io/</id><updated>2023-12-29T19:26:29+01:00</updated><entry><title>Text transform</title><link href="https://aircss.io/text-transform.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/text-transform.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Uppercase, title case and sentence can all be used in the same application. But if you
+are using title case for headings, all headings need to be in title case. Likewise, you
+can use sentence case for paragraphs. Use uppercase for standout texts only. The most
+important thing is consistency …&lt;/p&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Uppercase, title case and sentence can all be used in the same application. But if you
+are using title case for headings, all headings need to be in title case. Likewise, you
+can use sentence case for paragraphs. Use uppercase for standout texts only. The most
+important thing is consistency.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;tt = text-transform&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;s = sentence&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;t = title case&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;u = uppercase&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="i noir-50"&gt;none&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tts"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 tts lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+  The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ttt"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 ttt lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+  The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ttu"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 ttu lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+  The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;first-letter&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;uppercase&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ttt&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;capitalize&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ttu&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;uppercase&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>Tracking</title><link href="https://aircss.io/tracking.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/tracking.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Tracking affects the visual density of a word, phrase or paragraph. Decreasing the
+tracking makes the words appear more compact, while increasing tracking increases the
+amount of white space between letters and words, creating a more airy effect.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;tracked&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-tight&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-large&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-oversize&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-m = medium width …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Tracking affects the visual density of a word, phrase or paragraph. Decreasing the
+tracking makes the words appear more compact, while increasing tracking increases the
+amount of white space between letters and words, creating a more airy effect.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;tracked&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-tight&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-large&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-oversize&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-m = medium width container&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-l = large width container&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="shorthand"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Shorthand&lt;/h2&gt;
+&lt;p class="llm lh-body fw3 tj"&gt;It is possible to use the class name &lt;tt class="docutils literal red"&gt;.tracked&lt;/tt&gt; instead of &lt;tt class="docutils literal red"&gt;&lt;span class="pre"&gt;.tracked-large&lt;/span&gt;&lt;/tt&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked-tight"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 tracked-tight lh-body mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+    The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked-large"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 tracked-large lh-body mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+    The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked-oversize"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 tracked-oversize lh-body mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+    The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="c"&gt;/* generate: container-rule */&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked-tight&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;-.05&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked-large&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.1&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked-oversize&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.25&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.1&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>White space</title><link href="https://aircss.io/white-space.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/white-space.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Sometime it is necessary to set a different strategy to handle white spaces and new
 lines from the default one web browser use in an element.&lt;/p&gt;
 &lt;div class="section" id="mnemonics"&gt;
 &lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
@@ -103,407 +247,7 @@ white-space attributes in the following examples.&lt;/em&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Tracking</title><link href="https://aircss.io/tracking.html" rel="alternate"></link><published>2023-11-17T22:44:26+01:00</published><updated>2023-11-17T22:44:26+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/tracking.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Tracking affects the visual density of a word, phrase or paragraph. Decreasing the
-tracking makes the words appear more compact, while increasing tracking increases the
-amount of white space between letters and words, creating a more airy effect.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;tracked&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-tight&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-large&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-oversize&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-m = medium width …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Tracking affects the visual density of a word, phrase or paragraph. Decreasing the
-tracking makes the words appear more compact, while increasing tracking increases the
-amount of white space between letters and words, creating a more airy effect.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;tracked&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-tight&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-large&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-oversize&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-m = medium width container&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-l = large width container&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="shorthand"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Shorthand&lt;/h2&gt;
-&lt;p class="llm lh-body fw3 tj"&gt;It is possible to use the class name &lt;tt class="docutils literal red"&gt;.tracked&lt;/tt&gt; instead of &lt;tt class="docutils literal red"&gt;&lt;span class="pre"&gt;.tracked-large&lt;/span&gt;&lt;/tt&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked-tight"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 tracked-tight lh-body mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-    The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked-large"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 tracked-large lh-body mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-    The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tracked-oversize"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 tracked-oversize lh-body mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-    The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="c"&gt;/* generate: container-rule */&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked-tight&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;-.05&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked-large&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.1&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked-oversize&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.25&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tracked&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;letter-spacing&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;.1&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Line length (measure)</title><link href="https://aircss.io/measure.html" rel="alternate"></link><published>2023-11-17T22:41:14+01:00</published><updated>2023-11-17T22:41:14+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/measure.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Measure or line length is the distance between the left and right edges of a text block.
-Overly long lines are a common problem, but they're easy to correct. Shorter lines will
-make a big difference in the legibility and professionalism of your layout.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;ll …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Measure or line length is the distance between the left and right edges of a text block.
-Overly long lines are a common problem, but they're easy to correct. Shorter lines will
-make a big difference in the legibility and professionalism of your layout.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;ll = line-length&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-narrow — average length of 45 characters&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-medium — average length of 66 characters&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-wide — average length of 80 characters&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-m = medium width container&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-l = large width container&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ll-narrow"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-body ll-narrow fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ll-medium"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"llm"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-body ll-medium fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ll-wide"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-body ll-wide fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="c"&gt;/* generate: container-rule */&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ll-narrow&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;45&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ll-medium&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;66&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ll-wide&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;llm&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;66&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Line height</title><link href="https://aircss.io/line-height.html" rel="alternate"></link><published>2023-11-17T22:23:53+01:00</published><updated>2023-11-17T22:23:53+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/line-height.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;It's always a good practice to add some &lt;em&gt;leading&lt;/em&gt; to the type setting to open up the
-space between the line of the text. There is a sweet spot between too tight and too open
-leading which depends on the designer's visual judgment.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;lh = line …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;It's always a good practice to add some &lt;em&gt;leading&lt;/em&gt; to the type setting to open up the
-space between the line of the text. There is a sweet spot between too tight and too open
-leading which depends on the designer's visual judgment.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;lh = line height&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-solid = solid leading (1)&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-title = title leading (1.25)&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-body = body leading (1.5)&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="i noir-50"&gt;none&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"lh-solid"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-solid llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"lh-title"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-title llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"lh-body"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-body llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;lh-solid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--line-height-solid&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;lh-title&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--line-height-title&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1.25&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;lh-body&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--line-height-body&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1.5&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Text transform</title><link href="https://aircss.io/text-transform.html" rel="alternate"></link><published>2023-11-17T22:20:50+01:00</published><updated>2023-11-17T22:20:50+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/text-transform.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Uppercase, title case and sentence can all be used in the same application. But if you
-are using title case for headings, all headings need to be in title case. Likewise, you
-can use sentence case for paragraphs. Use uppercase for standout texts only. The most
-important thing is consistency …&lt;/p&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Uppercase, title case and sentence can all be used in the same application. But if you
-are using title case for headings, all headings need to be in title case. Likewise, you
-can use sentence case for paragraphs. Use uppercase for standout texts only. The most
-important thing is consistency.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;tt = text-transform&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;s = sentence&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;t = title case&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;u = uppercase&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="i noir-50"&gt;none&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tts"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 tts lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-  The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ttt"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 ttt lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-  The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ttu"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 ttu lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-  The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tts&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;first-letter&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;uppercase&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ttt&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;capitalize&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ttu&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;uppercase&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Text align</title><link href="https://aircss.io/text-align.html" rel="alternate"></link><published>2023-11-17T22:18:49+01:00</published><updated>2023-11-17T22:18:49+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/text-align.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Text alignment is a small but significant part of the interface. Alignment affects how
-our brain scans the content on a screen. A proper text alignment is one of the most
-distinct indicators of a professionally crafted digital product.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;t = text-align&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;l = left&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;r = right …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Text alignment is a small but significant part of the interface. Alignment affects how
-our brain scans the content on a screen. A proper text alignment is one of the most
-distinct indicators of a professionally crafted digital product.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;t = text-align&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;l = left&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;r = right&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;c = center&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;j = justify&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-m = medium width container&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-l = large width container&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tl"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tl lh-body llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tr"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tr lh-body llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tc"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tc lh-body llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tj"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;div class="db tj lh-body llm fw3 mb6"&gt;
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
-    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
-    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
-    obcaecati!
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="c"&gt;/* generate: container-rule */&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tl&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;left&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tr&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;right&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tc&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;center&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tj&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;justify&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="k"&gt;hyphens&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;auto&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Font style</title><link href="https://aircss.io/font-style.html" rel="alternate"></link><published>2023-11-17T22:13:47+01:00</published><updated>2023-11-17T22:13:47+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/font-style.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;While italics are mainly used to draw attention to certain words or passages, the font
+</content><category term="typography"></category></entry><entry><title>Font style</title><link href="https://aircss.io/font-style.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/font-style.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;While italics are mainly used to draw attention to certain words or passages, the font
 style also plays an important role in differentiating the titles and names of things
 such as novels, movies, or vehicle names from other text.&lt;/p&gt;
 &lt;div class="section" id="mnemonics"&gt;
@@ -585,100 +329,7 @@ such as novels, movies, or vehicle names from other text.&lt;/p&gt;
 &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;font-style&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;italic&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Text decoration</title><link href="https://aircss.io/text-decoration.html" rel="alternate"></link><published>2023-11-17T22:07:59+01:00</published><updated>2023-11-17T22:07:59+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/text-decoration.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Underline and strikethrough decorations on a text are respectively used to add an
-emphasis or epanorthosis to all or part of it.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;td = text decoration&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-normal&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-strike&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-underline&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-hvr = styled on hovering&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="shorthand"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Shorthand&lt;/h2&gt;
-&lt;p class="llm lh-body fw3 tj"&gt;It is possible to use the class name &lt;tt class="docutils literal red"&gt;.u&lt;/tt&gt; instead of &lt;tt class="docutils literal red"&gt;&lt;span class="pre"&gt;.td-underline …&lt;/span&gt;&lt;/tt&gt;&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Underline and strikethrough decorations on a text are respectively used to add an
-emphasis or epanorthosis to all or part of it.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;td = text decoration&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-normal&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-strike&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;-underline&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;-hvr = styled on hovering&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="shorthand"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Shorthand&lt;/h2&gt;
-&lt;p class="llm lh-body fw3 tj"&gt;It is possible to use the class name &lt;tt class="docutils literal red"&gt;.u&lt;/tt&gt; instead of &lt;tt class="docutils literal red"&gt;&lt;span class="pre"&gt;.td-underline&lt;/span&gt;&lt;/tt&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"td-normal"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 td-normal lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-  The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"td-strike"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 td-strike lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-  The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"td-underline"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"u"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="f3 u lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-  The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="c"&gt;/* generate: hover-rule */&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;td-normal&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;td-strike&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;line-through&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;td-underline&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;underline&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;u&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;underline&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Font weight</title><link href="https://aircss.io/font-weight.html" rel="alternate"></link><published>2023-11-17T21:59:57+01:00</published><updated>2023-11-17T21:59:57+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/font-weight.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Varying the font-weight of different pieces of text can help create contrast between
+</content><category term="typography"></category></entry><entry><title>Font weight</title><link href="https://aircss.io/font-weight.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/font-weight.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Varying the font-weight of different pieces of text can help create contrast between
 pieces of information. It can help call attention to a piece of content, or help to make
 a smaller font-size a bit more readable.&lt;/p&gt;
 &lt;table class="table-fixed collapse w-100"&gt;
@@ -833,7 +484,444 @@ a smaller font-size a bit more readable.&lt;/p&gt;
 &lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Font size</title><link href="https://aircss.io/font-size.html" rel="alternate"></link><published>2023-11-17T19:27:48+01:00</published><updated>2023-11-17T19:27:48+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/font-size.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;To create and design an easily readable interface, you only need a simple ratio-based
+</content><category term="typography"></category></entry><entry><title>Line height</title><link href="https://aircss.io/line-height.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/line-height.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;It's always a good practice to add some &lt;em&gt;leading&lt;/em&gt; to the type setting to open up the
+space between the line of the text. There is a sweet spot between too tight and too open
+leading which depends on the designer's visual judgment.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;lh = line …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;It's always a good practice to add some &lt;em&gt;leading&lt;/em&gt; to the type setting to open up the
+space between the line of the text. There is a sweet spot between too tight and too open
+leading which depends on the designer's visual judgment.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;lh = line height&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-solid = solid leading (1)&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-title = title leading (1.25)&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-body = body leading (1.5)&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="i noir-50"&gt;none&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"lh-solid"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-solid llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"lh-title"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-title llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"lh-body"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-body llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;lh-solid&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--line-height-solid&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;lh-title&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--line-height-title&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1.25&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;lh-body&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--line-height-body&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1.5&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>Line length (measure)</title><link href="https://aircss.io/measure.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/measure.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Measure or line length is the distance between the left and right edges of a text block.
+Overly long lines are a common problem, but they're easy to correct. Shorter lines will
+make a big difference in the legibility and professionalism of your layout.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;ll …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Measure or line length is the distance between the left and right edges of a text block.
+Overly long lines are a common problem, but they're easy to correct. Shorter lines will
+make a big difference in the legibility and professionalism of your layout.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;ll = line-length&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-narrow — average length of 45 characters&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-medium — average length of 66 characters&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-wide — average length of 80 characters&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-m = medium width container&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-l = large width container&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ll-narrow"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-body ll-narrow fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ll-medium"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"llm"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-body ll-medium fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"ll-wide"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-body ll-wide fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="c"&gt;/* generate: container-rule */&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ll-narrow&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;45&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ll-medium&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;66&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;ll-wide&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;llm&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;66&lt;/span&gt;&lt;span class="kt"&gt;ch&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>Text align</title><link href="https://aircss.io/text-align.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/text-align.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Text alignment is a small but significant part of the interface. Alignment affects how
+our brain scans the content on a screen. A proper text alignment is one of the most
+distinct indicators of a professionally crafted digital product.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;t = text-align&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;l = left&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;r = right …&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Text alignment is a small but significant part of the interface. Alignment affects how
+our brain scans the content on a screen. A proper text alignment is one of the most
+distinct indicators of a professionally crafted digital product.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;t = text-align&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;l = left&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;r = right&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;c = center&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;j = justify&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-m = medium width container&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-l = large width container&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tl"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tl lh-body llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tr"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tr lh-body llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tc"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tc lh-body llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"tj"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;lorem ipsum ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;div class="db tj lh-body llm fw3 mb6"&gt;
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus
+    soluta veritatis dolorum rerum vero quibusdam at repellendus qui? Ad aliquam
+    nesciunt voluptate aspernatur cumque excepturi necessitatibus neque maxime
+    obcaecati!
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="c"&gt;/* generate: container-rule */&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tl&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;left&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tr&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;right&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tc&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;center&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tj&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="k"&gt;text-align&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;justify&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="k"&gt;hyphens&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;auto&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>Text decoration</title><link href="https://aircss.io/text-decoration.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/text-decoration.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;Underline and strikethrough decorations on a text are respectively used to add an
+emphasis or epanorthosis to all or part of it.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;td = text decoration&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-normal&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-strike&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-underline&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-hvr = styled on hovering&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="shorthand"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Shorthand&lt;/h2&gt;
+&lt;p class="llm lh-body fw3 tj"&gt;It is possible to use the class name &lt;tt class="docutils literal red"&gt;.u&lt;/tt&gt; instead of &lt;tt class="docutils literal red"&gt;&lt;span class="pre"&gt;.td-underline …&lt;/span&gt;&lt;/tt&gt;&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;Underline and strikethrough decorations on a text are respectively used to add an
+emphasis or epanorthosis to all or part of it.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;td = text decoration&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-normal&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-strike&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;-underline&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;-hvr = styled on hovering&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="shorthand"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Shorthand&lt;/h2&gt;
+&lt;p class="llm lh-body fw3 tj"&gt;It is possible to use the class name &lt;tt class="docutils literal red"&gt;.u&lt;/tt&gt; instead of &lt;tt class="docutils literal red"&gt;&lt;span class="pre"&gt;.td-underline&lt;/span&gt;&lt;/tt&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"td-normal"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 td-normal lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+  The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"td-strike"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 td-strike lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+  The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"td-underline"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"u"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="f3 u lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+  The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="c"&gt;/* generate: hover-rule */&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;td-normal&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;td-strike&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;line-through&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;td-underline&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;underline&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;u&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;text-decoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;underline&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>Font family</title><link href="https://aircss.io/font-family.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/font-family.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;There are three defined classes that utilize attractive system fonts with appropriate
+fallbacks for setting the typeface of a page or element. It is suggested that you
+customize or extend this module to suit your own needs. However, relying on systems
+fonts greatly improves page performance and can also help …&lt;/p&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;There are three defined classes that utilize attractive system fonts with appropriate
+fallbacks for setting the typeface of a page or element. It is suggested that you
+customize or extend this module to suit your own needs. However, relying on systems
+fonts greatly improves page performance and can also help your web application/site
+blend in with the user's operating system.&lt;/p&gt;
+&lt;div class="section" id="mnemonics"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
+&lt;div class="mnemonics"&gt;
+&lt;div class="cf pb4"&gt;
+&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
+&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="flex justify-around items-center code f7"&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="red"&gt;code&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;serif&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;sans-serif&lt;/span&gt;&lt;br/&gt;
+&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="i noir-50"&gt;none&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="db w-third tc"&gt;
+&lt;span class="i noir-50"&gt;none&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="examples"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
+&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"code"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="code f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+    The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"serif"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="serif f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+    The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"sans-serif"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p class="sans-serif f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
+    The quick brown fox jumps over the lazy dog.
+&lt;/p&gt;&lt;/div&gt;
+&lt;div class="section" id="source-code"&gt;
+&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
+&lt;pre class="code css literal-block f8"&gt;
+&lt;span class="nt"&gt;code&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;code&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;SFMono-Regular&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Menlo&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Monaco&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Consolas&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="s2"&gt;"Liberation Mono"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="s2"&gt;"Courier New"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="kc"&gt;monospace&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;serif&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;georgia&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;times&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="kc"&gt;serif&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+
+&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;sans-serif&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;system-ui&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;apple-system&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Segoe&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;UI&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Roboto&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Ubuntu&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Cantarell&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Noto&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Sans&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="kc"&gt;sans-serif&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;BlinkMacSystemFont&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="s2"&gt;"Segoe UI"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Helvetica&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="n"&gt;Arial&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="kc"&gt;sans-serif&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="s2"&gt;"Apple Color Emoji"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="s2"&gt;"Segoe UI Emoji"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+               &lt;/span&gt;&lt;span class="s2"&gt;"Segoe UI Symbol"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="typography"></category></entry><entry><title>Font size</title><link href="https://aircss.io/font-size.html" rel="alternate"></link><published>2023-12-29T19:26:29+01:00</published><updated>2023-12-29T19:26:29+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-12-29:/font-size.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;To create and design an easily readable interface, you only need a simple ratio-based
 scale to provide a wide array of visual possibilities and an efficient way to prioritize
 the information on anything you can build from web pages to a full-featured webapp.&lt;/p&gt;
 &lt;table class="table-fixed collapse w-100"&gt;
@@ -974,94 +1062,6 @@ the information on anything you can build from web pages to a full-featured weba
 &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;f7&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--font-size-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0.875&lt;/span&gt;&lt;span class="kt"&gt;rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;f8&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;--font-size-&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0.75&lt;/span&gt;&lt;span class="kt"&gt;rem&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;span class="c"&gt;/* end generate */&lt;/span&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="typography"></category></entry><entry><title>Font family</title><link href="https://aircss.io/font-family.html" rel="alternate"></link><published>2023-11-17T17:59:26+01:00</published><updated>2023-11-17T17:59:26+01:00</updated><author><name>Morgan Delahaye</name></author><id>tag:aircss.io,2023-11-17:/font-family.html</id><summary type="html">&lt;p class="llm lh-body fw3 tj"&gt;There are three defined classes that utilize attractive system fonts with appropriate
-fallbacks for setting the typeface of a page or element. It is suggested that you
-customize or extend this module to suit your own needs. However, relying on systems
-fonts greatly improves page performance and can also help …&lt;/p&gt;</summary><content type="html">&lt;p class="llm lh-body fw3 tj"&gt;There are three defined classes that utilize attractive system fonts with appropriate
-fallbacks for setting the typeface of a page or element. It is suggested that you
-customize or extend this module to suit your own needs. However, relying on systems
-fonts greatly improves page performance and can also help your web application/site
-blend in with the user's operating system.&lt;/p&gt;
-&lt;div class="section" id="mnemonics"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Mnemonics&lt;/h2&gt;
-&lt;div class="mnemonics"&gt;
-&lt;div class="cf pb4"&gt;
-&lt;div class="db w-third fl tc b"&gt;Bases&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Modifiers&lt;/div&gt;
-&lt;div class="db w-third fl tc b"&gt;Optional extensions&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="flex justify-around items-center code f7"&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="red"&gt;code&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;serif&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;sans-serif&lt;/span&gt;&lt;br/&gt;
-&lt;span class="red"&gt;&lt;/span&gt;&lt;br/&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="i noir-50"&gt;none&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="db w-third tc"&gt;
-&lt;span class="i noir-50"&gt;none&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;
-&lt;div class="section" id="examples"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Examples&lt;/h2&gt;
-&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"code"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="code f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-    The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"serif"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="serif f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-    The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;pre class="code html literal-block f8"&gt;
-&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"sans-serif"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;The quick brown fox ...&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p class="sans-serif f-title fw7 lh-title mt0 mb6 truncate llm lh-body fw3 tj"&gt;
-    The quick brown fox jumps over the lazy dog.
-&lt;/p&gt;&lt;/div&gt;
-&lt;div class="section" id="source-code"&gt;
-&lt;h2 class="f-subtitle fw3 i"&gt;Source code&lt;/h2&gt;
-&lt;pre class="code css literal-block f8"&gt;
-&lt;span class="nt"&gt;code&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;code&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;SFMono-Regular&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Menlo&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Monaco&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Consolas&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="s2"&gt;"Liberation Mono"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="s2"&gt;"Courier New"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="kc"&gt;monospace&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;serif&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;georgia&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;times&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="kc"&gt;serif&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-
-&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;sans-serif&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
-  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;system-ui&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;apple-system&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Segoe&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;UI&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Roboto&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Ubuntu&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Cantarell&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Noto&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Sans&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="kc"&gt;sans-serif&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;BlinkMacSystemFont&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="s2"&gt;"Segoe UI"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Helvetica&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="n"&gt;Arial&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="kc"&gt;sans-serif&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="s2"&gt;"Apple Color Emoji"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="s2"&gt;"Segoe UI Emoji"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
-               &lt;/span&gt;&lt;span class="s2"&gt;"Segoe UI Symbol"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
 </content><category term="typography"></category></entry></feed>
