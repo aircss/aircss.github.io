@@ -1,7 +1,7 @@
 AUTHOR = 'Morgan Delahaye'
 SITEURL = ""
 SITENAME = 'Air CSS'
-VERSION = '1.1.0'
+VERSION = '2.1.0'
 
 PATH = "content"
 THEME = 'theme'
@@ -16,6 +16,7 @@ ADD_CSS_CLASSES_TO_ARTICLE = {
     "p": ["llm", "lh-body", "fw3", "tj"],
     "pre": ["f8"],
     "h2": ["f-subtitle", "fw3", "i"],
+    "h3": ["f1", "fw3", "i"],
     "tt": ["red"],
 }
 
