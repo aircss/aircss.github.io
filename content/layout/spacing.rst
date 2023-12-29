@@ -16,8 +16,8 @@ Mnemonics
         <div class="pa2 w-100 w-25-m tc">
             <div class="db pa2 mb4 b bb noir-60">Bases</div>
 
-            <span class="code red f7">p = padding</span><br>
-            <span class="code red f7">m = margin</span><br>
+            <span class="code red f7">m = margin (outer)</span><br>
+            <span class="code red f7">p = padding (inner)</span><br>
             <span class="code red f7"></span><br>
         </div>
 
@@ -97,8 +97,8 @@ horizontal margin.
             <div class="w-100 ml4 pa2 bg--noir-10 code red">.ml4</div>
             <div class="w-100 ml5 pa2 bg--noir-10 code red">.ml5</div>
             <div class="w-100 ml6 pa2 bg--noir-10 code red">.ml6</div>
-            <div class="w-100 ml7 pa2 bg--noir-10 code red">.ml7</div>
-            <div class="w-100 ml8 pa2 bg--noir-10 code red">.ml8</div>
+            <div class="dn db-m w-100 ml7 pa2 bg--noir-10 code red">.ml7</div>
+            <div class="dn db-m w-100 ml8 pa2 bg--noir-10 code red">.ml8</div>
         </div>
 
         <div class="wrapped flex bg--noir-40">
@@ -111,8 +111,8 @@ horizontal margin.
             <div class="w-100 pa2 bg--noir-10 tc code red">.mh4</div>
             <div class="w-100 pa2 bg--noir-10 tc code red">.mh5</div>
             <div class="w-100 pa2 bg--noir-10 tc code red">.mh6</div>
-            <div class="w-100 pa2 bg--noir-10 tc code red">.mh7</div>
-            <div class="w-100 pa2 bg--noir-10 tc code red">.mh8</div>
+            <div class="dn db-m w-100 pa2 bg--noir-10 tc code red">.mh7</div>
+            <div class="dn db-m w-100 pa2 bg--noir-10 tc code red">.mh8</div>
         </div>
 
 
@@ -126,10 +126,15 @@ horizontal margin.
             <div class="w-100 mr4 pa2 bg--noir-10 tr code red">.ml4</div>
             <div class="w-100 mr5 pa2 bg--noir-10 tr code red">.ml5</div>
             <div class="w-100 mr6 pa2 bg--noir-10 tr code red">.ml6</div>
-            <div class="w-100 mr7 pa2 bg--noir-10 tr code red">.ml7</div>
-            <div class="w-100 mr8 pa2 bg--noir-10 tr code red">.ml8</div>
+            <div class="dn db-m w-100 mr7 pa2 bg--noir-10 tr code red">.ml7</div>
+            <div class="dn db-m w-100 mr8 pa2 bg--noir-10 tr code red">.ml8</div>
         </div>
     </div>
+
+    <p class="dn-m i f7">
+    n.b.: The example of the 7th and 8th steps of the scale cannot be displayed
+    efficiently on a small screen. We are sorry for the inconvenience.
+    </p>
 
 The choices of priority in aircss allow to define the space for multiple edges
 at the same time and to override this rule with a more specific rule. As a
