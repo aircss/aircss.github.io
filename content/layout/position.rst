@@ -1,6 +1,11 @@
 Position
 ########
 
+:icon: layout-top-2-line.svg
+:summary: The position sets how an element is positioned in a document. This
+    module should be used in conjunction with the coordinates module.
+
+
 The position sets how an element is positioned in a document. This module should be used
 in conjunction with the coordinates module.
 

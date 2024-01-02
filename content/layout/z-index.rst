@@ -1,6 +1,10 @@
 Z-index
 #######
 
+:icon: bring-forward.svg
+:summary: The z-index property specifies the stack order of an element.
+
+
 The z-index property specifies the stack order of an element.
 
 An element with greater stack order is always in front of an element with a

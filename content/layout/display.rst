@@ -1,6 +1,12 @@
 Display
 #######
 
+:icon: artboard-2-line.svg
+:summary: The display property sets an element's inner and outer display types.
+    The outer type sets an element's participation in flow layout; the inner
+    type sets the layout of children.
+
+
 Formally, the display property sets an element's inner and outer display types. The
 outer type sets an element's participation in flow layout; the inner type sets the
 layout of children. Some values of display are fully defined in their own individual

@@ -1,6 +1,11 @@
 Vertical align
 ##############
 
+:icon: align-vertically.svg
+:summary: This module allows to set vertical alignment of an inline or
+    inline-block box.
+
+
 This module allows to set vertical alignment of an inline or inline-block box.
 
 
@@ -14,7 +19,7 @@ Examples
 ========
 
 The following examples add visible top and botton borders on each element to
-better show the different options available. 
+better show the different options available.
 
 .. code:: html
 

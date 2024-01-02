@@ -1,9 +1,15 @@
 Flexbox
 #######
 
+:icon: layout-line.svg
+:summary: Flexboxes are first-class citizens in aircss to build advanced
+    layouts.
+
+
 Flexboxes are first-class citizens in aircss to build advanced layouts. Their
 use is made simple through an expressive set of dedicated classes to configure
 the containers and their child items.
+
 
 Create a container
 ==================
@@ -25,7 +31,7 @@ additional class.
 
 Finally, it is possible to distribute the child items along the main axis with
 two different strategies: ``evenly-spaced`` or ``evenly-filled``. If no
-strategy is set, the default behavior is to align items to the starting point. 
+strategy is set, the default behavior is to align items to the starting point.
 
 
 Configure child items
@@ -51,7 +57,7 @@ Syntax and classes
 Containers
 ----------
 
-**Syntax:** ``[evenly-filled|evenly-spaced] [reverse] [wrapped] 
+**Syntax:** ``[evenly-filled|evenly-spaced] [reverse] [wrapped]
 flex [row|column]``
 
 **Default:** A flexbox container hass an horizontal main axis with child items
@@ -80,7 +86,7 @@ Child items
 **Syntax:** ``[grow|noflex] [start|center|end]``
 
 **Default:** An item will shrink to fit the main axis and stretch to fill the
-cross axis. 
+cross axis.
 
 ``grow``: An item will expand to fill the main axis
 

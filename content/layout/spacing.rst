@@ -1,11 +1,17 @@
 Spacing
 #######
 
+:icon: space.svg
+:summary: Spacing allows to set the outer (margin) and inner (padding) space of
+    an element.
+
+
 Spacing allows to set the outer (margin) and inner (padding) space of an
 element. The difference between margin and padding can have a huge impact on
 the layout despite being invisible to the user.
 
 Aircss spacing scale is based on the powers of two and provides eight steps.
+
 
 Mnemonics
 =========

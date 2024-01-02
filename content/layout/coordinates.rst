@@ -1,6 +1,11 @@
 Coordinates
 ###########
 
+:icon: ruler-2-line.svg
+:summary: The coordinates sets where an element is positioned inside of a
+    document or another element.
+
+
 The coordinates sets where an element is positioned inside of a document or another
 element.
 
