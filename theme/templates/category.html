@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.name }}{% endblock %}
+
+{% block content %}
+<div class="center w-100 mw8 ph3">
+  <h2 class="f-subtitle fw3 i">{{ category.name | title}}</h2>
+
+  <p class="fw3 lh-body llm">
+    {{ category.page.content | striptags }}
+  </p>
+
+
+  <div class="bl bw2 {{ category.page.color }}">
+    <div class="flex column">
+        {% for article in articles | sort(attribute='title') %}
+        <a class="flex start link db pv4 tc blue-hvr" href="{{ article.slug }}">
+            <img class="noflex center h2 w3 ma2" src="/theme/img/{{ article.icon }}" alt="{{ article.title }}" />
+            <div class="center tj fw3 f7 lh-body llm">
+                <span class="b">{{ article.title | title }}</span><br>
+                {{ article.summary | striptags }}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+  </div>
+
+</div>
+{% endblock %}

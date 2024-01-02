@@ -22,12 +22,13 @@ ADD_CSS_CLASSES_TO_ARTICLE = {
 
 PLUGIN_PATHS = ["plugins",]
 PLUGINS = [
+    "autopages",
     "mnemonics",
     "add_css_classes",
 ]
 
-ARTICLE_SAVE_AS = 'docs/{category}/{slug}.html'
-
+ARTICLE_SAVE_AS = 'docs/{category}/{slug}/index.html'
+CATEGORY_SAVE_AS = 'docs/{slug}/index.html'
 
 TEMPLATE_PAGES = {
     'CNAME': 'CNAME',
