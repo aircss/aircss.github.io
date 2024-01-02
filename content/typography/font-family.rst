@@ -1,6 +1,9 @@
 Font family
 ###########
 
+:icon: font-sans-serif.svg
+:summary: There are three defined classes that utilize attractive system fonts
+    with appropriate fallbacks for setting the typeface of a page or element.
 
 There are three defined classes that utilize attractive system fonts with appropriate
 fallbacks for setting the typeface of a page or element. It is suggested that you

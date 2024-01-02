@@ -1,6 +1,10 @@
 Text transform
 ##############
 
+:icon: font-size.svg
+:summary: Uppercase, title case and sentence can all be used in the same
+    application.
+
 
 Uppercase, title case and sentence can all be used in the same application. But if you
 are using title case for headings, all headings need to be in title case. Likewise, you

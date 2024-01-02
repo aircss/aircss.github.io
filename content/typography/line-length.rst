@@ -2,6 +2,9 @@ Line length (measure)
 #####################
 
 :slug: measure
+:icon: measure.svg
+:summary: Overly long lines are a common problem, shorter lines will make a big
+    difference in the legibility and professionalism of your layout.
 
 
 Measure or line length is the distance between the left and right edges of a text block.

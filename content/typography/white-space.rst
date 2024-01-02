@@ -1,6 +1,10 @@
 White space
 ###########
 
+:icon: paragraph.svg
+:summary: Sometime it is necessary to set a different strategy to handle white
+    spaces and new lines from the default one web browser use in an element.
+
 
 Sometime it is necessary to set a different strategy to handle white spaces and new
 lines from the default one web browser use in an element.

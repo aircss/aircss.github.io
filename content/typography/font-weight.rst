@@ -1,6 +1,10 @@
 Font weight
 ###########
 
+:icon: bold.svg
+:summary: Varying the font-weight of different pieces of text can help create
+    contrast between pieces of information.
+
 
 Varying the font-weight of different pieces of text can help create contrast between
 pieces of information. It can help call attention to a piece of content, or help to make

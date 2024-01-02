@@ -1,6 +1,10 @@
 Text decoration
 ###############
 
+:icon: underline.svg
+:summary: Underline and strikethrough decorations on a text are respectively
+    used to add an emphasis or epanorthosis to all or part of it.
+
 
 Underline and strikethrough decorations on a text are respectively used to add an
 emphasis or epanorthosis to all or part of it.

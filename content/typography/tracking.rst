@@ -1,6 +1,9 @@
 Tracking
 ########
 
+:icon: text-spacing.svg
+:summary: Tracking affects the visual density of a word, phrase or paragraph.
+
 
 Tracking affects the visual density of a word, phrase or paragraph. Decreasing the
 tracking makes the words appear more compact, while increasing tracking increases the

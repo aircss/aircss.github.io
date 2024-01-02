@@ -1,6 +1,9 @@
 Font size
 #########
 
+:icon: font-size-2.svg
+:summary: A simple ratio-based scale to provide a wide array of visual
+    possibilities and an efficient way to prioritize the information.
 
 To create and design an easily readable interface, you only need a simple ratio-based
 scale to provide a wide array of visual possibilities and an efficient way to prioritize
@@ -45,13 +48,13 @@ Examples
 
 .. code:: html
 
-  <p class="f-title">The quick brown fox ...</p>
+    <p class="f-title">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f-title fw7 lh-title mt0 mb6 truncate">
+    <p class="f-title fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
@@ -59,89 +62,89 @@ Examples
 
 .. raw:: html
 
-      <p class="f-subtitle fw7 lh-title mt0 mb6 truncate">
+    <p class="f-subtitle fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f1">The quick brown fox ...</p>
+    <p class="f1">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f1 fw7 lh-title mt0 mb6 truncate">
+    <p class="f1 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f2">The quick brown fox ...</p>
+    <p class="f2">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f2 fw7 lh-title mt0 mb6 truncate">
+    <p class="f2 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f3">The quick brown fox ...</p>
+    <p class="f3">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f3 fw7 lh-title mt0 mb6 truncate">
+    <p class="f3 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f4">The quick brown fox ...</p>
+    <p class="f4">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f4 fw7 lh-title mt0 mb6 truncate">
+    <p class="f4 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f5">The quick brown fox ...</p>
+    <p class="f5">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f5 fw7 lh-title mt0 mb6 truncate">
+    <p class="f5 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f6">The quick brown fox ...</p>
+    <p class="f6">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f6 fw7 lh-title mt0 mb6 truncate">
+    <p class="f6 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f7">The quick brown fox ...</p>
+    <p class="f7">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f7 fw7 lh-title mt0 mb6 truncate">
+    <p class="f7 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 .. code:: html
 
-  <p class="f8">The quick brown fox ...</p>
+    <p class="f8">The quick brown fox ...</p>
 
 .. raw:: html
 
-      <p class="f8 fw7 lh-title mt0 mb6 truncate">
+    <p class="f8 fw7 lh-title mt0 mb6 truncate">
         The quick brown fox jumps over the lazy dog.
-      </p>
+    </p>
 
 
 Source code

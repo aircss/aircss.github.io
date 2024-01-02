@@ -1,6 +1,9 @@
 Font style
 ##########
 
+:icon: italic.svg
+:summary: Italics are mainly used to draw attention to certain words or
+    passages and to differentiate the titles and names of things.
 
 While italics are mainly used to draw attention to certain words or passages, the font
 style also plays an important role in differentiating the titles and names of things

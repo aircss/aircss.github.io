@@ -1,6 +1,9 @@
 Line height
 ###########
 
+:icon: line-height.svg
+:summary: Open up the space between the line of the text.
+
 
 It's always a good practice to add some *leading* to the type setting to open up the
 space between the line of the text. There is a sweet spot between too tight and too open
