@@ -1,4 +1,4 @@
-/*! Air v1.1.0 | BSD License | https://aircss.io */
+/*! Air v2.2.0 | BSD License | https://aircss.io */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -354,6 +354,7 @@ template,[hidden] {
 
 .input-reset {
   -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   border: 0;
   padding: 0;
