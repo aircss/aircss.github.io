@@ -1,4 +1,4 @@
-/*! Air v2.2.0 | BSD License | https://aircss.io */
+/*! Air v2.3.0 | BSD License | https://aircss.io */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -1956,63 +1956,6 @@ input[type="url"],
   margin-right: 16rem;
   }
 }
-
-/*
-
-   FLOATS
-   http://aircss.io/docs/layout/floats/
-
-  1. Floated elements are automatically rendered as block level elements.
-  2. Don't forget to clearfix your floats with .cf
-
-
-  Mnemonics
-  =========
-
-  Bases:
-    f = float
-
-  Modifiers:
-    l = left
-    r = right
-    n = none
-
-  Optional extensions:
-    -m = medium
-    -l = large
-
-*/
-
-/* generate: container-rule */
-.fl { float: left; }
-.fr { float: right; }
-.fn { float: none; }
-/* end generate */
-
-@media (min-width: 32rem) {
-  .fl-m { float: left; }
-  .fr-m { float: right; }
-  .fn-m { float: none; }
-}
-
-@media (min-width: 64rem) {
-  .fl-l { float: left; }
-  .fr-l { float: right; }
-  .fn-l { float: none; }
-}
-/*
-
-   CLEARS
-
-*/
-
-/* Nicolas Gallaghers Clearfix solution
-   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
-
-.cf:before,
-.cf:after   { content: " "; display: table; }
-.cf:after   { clear: both; }
-.cf         { *zoom: 1; }
 /*
 
    WIDTHS
