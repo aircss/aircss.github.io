@@ -1,7 +1,7 @@
 AUTHOR = 'Morgan Delahaye'
 SITEURL = ""
 SITENAME = 'Air CSS'
-VERSION = '2.3.0'
+VERSION = '2.3.2'
 
 PATH = "content"
 THEME = 'theme'
@@ -29,6 +29,7 @@ PLUGINS = [
 
 ARTICLE_SAVE_AS = 'docs/{category}/{slug}/index.html'
 CATEGORY_SAVE_AS = 'docs/{slug}/index.html'
+CATEGORIES_SAVE_AS = 'docs/overview/index.html'
 
 TEMPLATE_PAGES = {
     'CNAME': 'CNAME',

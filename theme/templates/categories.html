@@ -1,12 +1,37 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITENAME }} - Catégories{% endblock %}
+{% block title %}Overview{% endblock %}
 
 {% block content %}
-  <h1>Categories de documents</h1>
-  <ul class="list pa0">
+<div class="center w-100 mw8 ph3">
+
+  <p class="llm fw3 lh-body tj">
+    This page offers a comprehensive view of every properties available in air
+    to build your project. Clicking on an icon allows you to access details of
+    the covered topic.
+  </p>
+
   {% for category, articles in categories|sort %}
-    <li><a class="link bleu-france underline-hover" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+
+  <h2 class="f-subtitle fw3 i">{{ category.name | title}}</h2>
+
+  <p class="fw3 lh-body llm tj">
+    {{ category.page.content | striptags }}
+  </p>
+
+  <div class="bl bw2 {{ category.page.color }}">
+    <div class="flex gap2 wrapped pa4 ">
+        {% for article in articles | sort(attribute='title') %}
+        <a class="flex column w4 start link tc blue-hvr" href="docs/{{ category.name }}/{{ article.slug }}">
+            <img class="noflex center h2 w3 ma2" src="/theme/img/{{ article.icon }}" alt="{{ article.title }}" />
+            <div class="center tc fw4 f7 lh-body llm">
+                {{ article.title | title }}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+  </div>
   {% endfor %}
-  </ul>
+
+</div>
 {% endblock %}
