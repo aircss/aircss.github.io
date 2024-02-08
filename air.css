@@ -1,4 +1,4 @@
-/*! Air v2.3.0 | BSD License | https://aircss.io */
+/*! Air v2.3.2 | BSD License | https://aircss.io */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -1089,7 +1089,7 @@ code, .code {
   Docs: http://aircss.io/docs/layout/flexbox.html
 
   Flexboxes are first-class citizens in aircss to build advanced layouts. Their
-  use is made simple through an expressive set of dedicated classes to 
+  use is made simple through an expressive set of dedicated classes to
   configure the containers and their child items.
 
 */
@@ -1113,6 +1113,11 @@ code, .code {
 .center { align-self: center; }
 .start  { align-self: flex-start; }
 .end    { align-self: flex-end; }
+
+.gap1 { gap: 1rem; }
+.gap2 { gap: 2rem; }
+.gap3 { gap: 4rem; }
+.gap4 { gap: 8rem; }
 /* end generate */
 
 
@@ -1135,6 +1140,11 @@ code, .code {
   .center-m { align-self: center; }
   .start-m  { align-self: flex-start; }
   .end-m    { align-self: flex-end; }
+  
+  .gap1-m { gap: 1rem; }
+  .gap2-m { gap: 2rem; }
+  .gap3-m { gap: 4rem; }
+  .gap4-m { gap: 8rem; }
 }
 
 @media (min-width: 64rem) {
@@ -1156,6 +1166,11 @@ code, .code {
   .center-l { align-self: center; }
   .start-l  { align-self: flex-start; }
   .end-l    { align-self: flex-end; }
+  
+  .gap1-l { gap: 1rem; }
+  .gap2-l { gap: 2rem; }
+  .gap3-l { gap: 4rem; }
+  .gap4-l { gap: 8rem; }
 }
 /*
  
@@ -1228,6 +1243,8 @@ input[type="url"],
     6 = 6th step in spacing scale
     7 = 7th step in spacing scale
     8 = 8th step in spacing scale
+
+    auto = automatic margin
 
   Optional extensions:
     -m  = medium
@@ -1473,6 +1490,10 @@ input[type="url"],
   margin-left: 16rem;
   margin-right: 16rem;
 }
+
+.m-auto {
+  margin: auto;
+}
 /* end generate */
 
 @media (min-width: 32rem) {
@@ -1714,6 +1735,10 @@ input[type="url"],
   margin-left: 16rem;
   margin-right: 16rem;
   }
+  
+  .m-auto-m {
+  margin: auto;
+  }
 }
 
 @media (min-width: 64rem) {
@@ -1954,6 +1979,10 @@ input[type="url"],
   .mh8-l  {
   margin-left: 16rem;
   margin-right: 16rem;
+  }
+  
+  .m-auto-l {
+  margin: auto;
   }
 }
 /*
