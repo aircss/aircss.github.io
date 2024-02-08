@@ -22,7 +22,7 @@
   <div class="bl bw2 {{ category.page.color }}">
     <div class="flex gap2 wrapped pa4 ">
         {% for article in articles | sort(attribute='title') %}
-        <a class="flex column w4 start link tc blue-hvr" href="docs/{{ category.name }}/{{ article.slug }}">
+        <a class="flex column w4 start link tc blue-hvr" href="/docs/{{ category.name }}/{{ article.slug }}">
             <img class="noflex center h2 w3 ma2" src="/theme/img/{{ article.icon }}" alt="{{ article.title }}" />
             <div class="center tc fw4 f7 lh-body llm">
                 {{ article.title | title }}
